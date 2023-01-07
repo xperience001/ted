@@ -25,7 +25,6 @@ app.get('/', (req, res)=>{
      res.json('welcome').status(200);
   });
 
-
 user(app);
 
 app.listen(port, ()=> console.log(`e-commerce API is listening on port ${port}`));
